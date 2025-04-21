@@ -1,10 +1,7 @@
 import os
 from volcenginesdkarkruntime import Ark
 from typing import Optional
-os.environ["ARK_API_KEY"] = "726049fd-3560-495f-96e6-51a81ac51260"
-endpoint_id = "ep-20250420153708-ljgx6" # doubao 1.5
-# endpoint_id = "ep-20250420152045-kpmvb" # doubao thinking
-
+endpoint_id = "xxxx" # doubao 1.5
 
 
 def llm_completions(endpoint_id, prompt, system_prompt=None, config=None):
